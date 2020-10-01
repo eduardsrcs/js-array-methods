@@ -1,7 +1,9 @@
 function renderTable(obj){
   data = obj
   let out = ''
-  let j = 0
+  // let j = 0
+
+  obj = obj.filter(el => el.id > 80)
   // var arrLength = obj.length
 
   // obj.forEach(element => {
